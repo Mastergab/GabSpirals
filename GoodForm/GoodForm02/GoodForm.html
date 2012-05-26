@@ -1,0 +1,314 @@
+<!DOCTYPE html> 
+//good form
+<HTML>
+    <Head>
+        <Title> Practice filling your job application forms </Title> 
+         <meta charset="utf-8"/> 
+//defines the type of alphabet we are displaying characters with
+    <meta name="author" content="Gabriel Bergevin-Estable"/>     
+//good to learn meta tags like this for SEO, notably
+    </Head>
+    <Body>
+     <h1>GoodForm02</h1>
+     <h2 id="status">dart is not running</h2>
+//this will display if your browser is slow to run the script, for example
+
+    <script type="text/javascript" src="GoodForm02.dart"></script>
+//don't change the source of the javascript file until you also change that file!
+        <p>
+Welcome to the Little Burgundy Employment Center practice Exercice to learn how to fill Job Application Forms. We will ask you to fill out the following form as best you can, and give you feedback on how you did when you press the SUBMIT button at the bottom of the page. Start when you are ready.
+TIP: If you want to save yourself some typing time, and your CV is already done, you can open your CV in Word while keeping this window open, and copy-paste the information from your CV into this form. Remember, copying can be done with the keyboard shortcut CTRL-C, and pasting can be done with CTRL-V.
+        </p>
+
+<h2> Form 3 </h2>
+
+<form>
+<fieldset id = "contactInformation">
+<legend> Contact information </legend>
+
+<label> First Name </label>
+<input type = "text"
+id = "firstName"
+value = "Write in the boxes.">
+
+<label> Last Name </label>
+<input type = "text"
+id = "lastName"
+value = "Don't forget to capitalize">
+</br>
+
+<label> Email </label>
+<input type = "text"
+id = "email"
+value = "username@service.ext">
+</br>
+
+<label> Phone Number </label>
+<input type = "text"
+id = "phoneNumber"
+value = "Don't forget the area code">
+</br>
+
+<label> Street Adress </label>
+<input type = "text"
+id = "address"
+value = "###, Streetname, App.#">
+
+
+<label> City </label>
+<input type = "text"
+id = "city"
+value = "The city you live in">
+</fieldset>
+
+<fieldset id = "currentPosition">
+<legend> Current Position </legend>
+
+<label> Job title </label>
+<input type = "text"
+id = "jobTitle0"
+value = "Your current job title">
+</br>
+
+<label> Job description </label>
+<textarea id = "jobDescription0"
+rows = "3"
+columns = "80">
+Describe your position (what you did at work).
+</textarea>
+</fieldset>
+
+<fieldset id = "previousPosition1">
+<legend> Previous Position </legend>
+
+<label> Job title </label>
+<input type = "text"
+id = "jobTitle1"
+value = "What was your job title?">
+</br>
+
+<label> Job description </label>
+<textarea id = "jobDescription1"
+rows = "3"
+columns = "80">
+Describe your position (what you did at work).
+</textarea>
+</fieldset>
+
+<fieldset id = "previousPosition2">
+<legend> Other Previous Position </legend>
+
+<label> Job title </label>
+<input type = "text"
+id = "jobTitle2"
+value = "What was your job title?">
+</br>
+
+<label> Job description </label>
+<textarea id = "jobDescription2"
+rows = "3"
+columns = "80">
+Describe your position (what you do at work).
+</textarea>
+</fieldset>
+
+<fieldset id = "education">
+<legend> Highest education degree attained </legend>
+
+<label> Degree </label>
+<input type = "text"
+id = "degree"
+value = "What diploma did you obtain">
+</br>
+
+<label> Field </label>
+<input type = "text"
+id = "field"
+value = "What field did you obtain it in (general education, philosophy, medicine, etc.)">
+</br>
+
+<label> Year obtained </label>
+<input type = "text"
+id = "year"
+value = "When did you obtain this degree?">
+</br>
+
+<label> Institution attended </label>
+<input type = "text"
+id = "school"
+value = "What institution or school gave you this degree?">
+</br>
+</fieldset>
+
+</form>
+
+<h2> Form 2 </h2>
+
+<ol id= "ApplicationForm">
+<li>First Name
+<li>Last Name
+<li>E-mail address
+<li>Phone number
+<li>Street Address
+<li>City
+<li>Current position
+<li>Job description
+<li>Previous position
+<li>Job description
+<li>Previous position
+<li>Job description
+<li>Highest education degree attained
+<li>Year obtained
+<li>Institution attended
+</ol>
+
+<h2> Form 1 </h2>
+        <form action = gabdude@gmail.com method = post>
+<input type = reset value = reset>
+</input>
+</br>
+<p>
+First Name
+</p>
+<input type =”text” name =”name1”  value = 'First Name' >
+</input>
+</br>
+</br>
+<p>
+Last Name
+</p>
+<input type = “text” name =”name2”  value = 'Last Name' >
+</input>
+</br>
+</br>
+<p>
+E-mail address
+</p>
+<input type =”text” name =”email”  value = 'E-mail address' >
+</input>
+</br>
+</br>
+<p>
+Phone number
+</p>
+<input type =”text” name =”phone”  value = 'Phone number' >
+</input>
+</br>
+</br>
+<p>
+Street address
+</p>
+<input type =”text” name =”address”  value = 'Street Address' >
+</input>
+</br>
+</br>
+<p>
+City
+</p>
+<input type =”text” name =”city”  value = 'City' >
+</input>
+</br>
+</br>
+<p>
+Current position
+</p>
+<input type =”text” name =”cp”  value = 'Current position' >
+</input>
+</br>
+</br>
+<p>
+Job description
+</p>
+<input type =”text” name =”cpdescription”  value = 'Job description' >
+</input>
+</br>
+</br>
+<p>
+Previous position
+</p>
+<input type =”text” name =”pp1”  value = 'Previous position' >
+</input>
+</br>
+</br>
+<p>
+Job description
+</p>
+<input type =”text” name =”pp1description”  value = 'Job description' >
+</input>
+</br>
+</br>
+<p>
+Previous position
+</p>
+<input type =”text” name =”pp2”  value = 'Previous position' >
+</input>
+</br>
+</br>
+<p>
+Job description
+</p>
+<input type =”text” name =”pp2description”  value = 'Job description' >
+</input>
+</br>
+</br>
+<p>
+Previous position
+</p>
+<input type =”text” name =”pp3”  value = 'Previous position'>
+</input>
+</br>
+</br>
+<p>
+Job description
+</p>
+<input type =”text” name =”pp3description”  value = 'Job description' >
+</input>
+</br>
+</br>
+<p>
+Highest education degree attained
+</p>
+<input type =”text” name =”edu1”  value = 'Highest education degree attained' >
+</input>
+</br>
+</br>
+<p>
+Year obtained
+</p>
+<input type =”text” name =”edu1year”  value = 'Year obtained' >
+</input>
+</br>
+</br>
+<p>
+Institution attended
+</p>
+<input type =”text” name =”edu1school”  value = 'Institution attended' >
+</input>
+</br>
+</br>
+<p>
+Other degree
+</p>
+<input type =”text” name =”edu2”  value ='Other degree' >
+</input>
+</br>
+</br>
+<p>
+Year obtained
+</p>
+<input type =”text” name =”edu2year”  value = 'Year obtained' >
+</input>
+</br>
+</br>
+<p>
+Institution attended
+</p>
+<input type =”text” name =”edu2school”  value = 'Institution attended' >
+</input>
+</br>
+<input type = submit value = submit>
+</input>
+</br>
+        </form>
+    </Body>
+</HTML>
