@@ -1,0 +1,24 @@
+
+p {
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+form{
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+h2{
+color: #000033;
+text-align: center;
+}
+body{
+background: #CCFFFF;
+}
+fieldset{
+border: 2px solid #FF9933;
+}
+legend{
+font-weight: bold;
+}
